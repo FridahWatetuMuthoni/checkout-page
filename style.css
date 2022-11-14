@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.checkout-page{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.left-checkout,.right-checkout{
+    width: 50%;
+    margin: 0 10px;
+}
+
+.heading{
+    font-size:36px ;
+    font-weight: 600;
+    line-height:44px ;
+    color: #4E5150;
+    margin: 20px 0;
+}
+
+.shipping-address h1,.contact-info h1{
+    color: #333333;
+    line-height:22px ;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.contact-info{
+    padding: 20px;
+}
+
+.shipping-address{
+    padding: 20px;
+}
+
+.fontawesome {
+  font-family: 'Helvetica', FontAwesome, sans-serif;
+}
+
+.right-checkout{
+    position: relative;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+.right-checkout input, .right-checkout select{
+    width: 100%;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    height: 56px;
+    margin: 10px 0 15px 0;
+    padding: 5px 10px;
+}
+
+
+.right-checkout input::placeholder,.right-checkout select{
+    font-size:16px ;
+    line-height: 20px;
+    font-weight:600 ;
+    color: #828282;
+    outline:none;
+}
+
+.right-checkout select{
+    padding-right: 20px;
+}
+.right-checkout .name::placeholder{
+    color: #333333;
+}
+
+.inline-form{
+    display: flex;
+    width: 100%;
+}
+
+.country{
+    margin-right: 8px;
+    width: 50%;
+}
+.code{
+    width: 50%;
+}
+.save{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.save input{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.btn{
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    background: #F2994A;
+    width: 166px;
+    height: 54px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.left-checkout{
+    padding: 20px;
+}
+
+.basket-card{
+    padding: 20px;
+    border-radius: 12px;
+    background: #F2F2F2;
+    width:383px ;
+    height:535px ;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 20px 40px 20px;
+}
+
+.item-image{
+    width: 134px;
+    height: 136px;
+    margin-right: 20px;
+}
+
+.item-image img{
+    border-radius:13px ;
+}
+
+.item-content{
+    font-size: 16px;
+    line-height: 20px;
+    color: #4E5150;
+    font-weight: 600;
+}
+
+.price{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.orange{
+    color: #F2994A;
+}
+
+.normal{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.quantity{
+    width: 134px;
+    height: 52px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.q-btn{
+    padding: 5px 8px;
+    background: #E0E0E0;
+    border-radius: 4px;
+    border: none;
+}
+
+.hr{
+    margin: 10px 0;
+}
+
+.shipping,.total{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height:17px ;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    margin: 20px 0;
+}
+
+@media (max-width:800px) {
+    .container{
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .heading{
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .checkout-page{
+        flex-direction: column;
+    }
+    .left-checkout,.right-checkout{
+    width: 100%;
+}
+.right-checkout{
+    margin-top: 30px;
+}
+.right-checkout input,.right-checkout select{
+    height: 40px;
+    margin: 10px 0 15px 0;
+    padding: 5px;
+}
+
+.right-checkout input::placeholder,.right-checkout select{
+    font-size:12px ;
+    line-height: 15px;
+}
+
+.save input{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.basket-card{
+    height: 510px;
+    width:100%;
+}
+.item-content{
+    font-size: 12px;
+    line-height: 15px;
+}
+}

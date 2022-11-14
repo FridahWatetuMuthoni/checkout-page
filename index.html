@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/x-icon" href="./images/devchallenges.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page</title>
+    <script src="https://use.fontawesome.com/11519f8c71.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Checkout</h1>
+      <section class="checkout-page">
+        <div class="left-checkout">
+          <section class="basket-card">
+            <section class="item">
+              <div class="item-image">
+                <img src="./images/photo1.png" alt="" />
+              </div>
+              <div class="item-content">
+                <h3>Vintage Backbag</h3>
+                <div class="price">
+                  <p class="orange">$54.99</p>
+                  <p class="normal">$96.99</p>
+                </div>
+                <div class="quantity">
+                  <button class="q-btn">-</button>
+                  <span>1</span>
+                  <button class="q-btn">+</button>
+                </div>
+              </div>
+            </section>
+            <section class="item">
+              <div class="item-image">
+                <img src="./images/photo2.png" alt="" />
+              </div>
+              <div class="item-content">
+                <h3>Vintage Backbag</h3>
+                <div class="price">
+                  <p class="orange">$74.99</p>
+                  <p class="normal">$124.99</p>
+                </div>
+                <div class="quantity">
+                  <button class="q-btn">-</button>
+                  <span>1</span>
+                  <button class="q-btn">+</button>
+                </div>
+              </div>
+            </section>
+            <hr class="hr" />
+            <section class="shipping">
+              <p>Shipping</p>
+              <p>$19</p>
+            </section>
+            <hr class="hr" />
+            <div class="total">
+              <p>Total</p>
+              <p>$148.98</p>
+            </div>
+          </section>
+        </div>
+        <section class="right-checkout">
+          <div class="checkout-form">
+            <section class="contact-info">
+              <h1>Contact Information</h1>
+              <form action="">
+                <div class="form-group">
+                  <label for="email">E-mail</label>
+                  <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="&#xf0e0;  Enter your email..."
+                    class="fontawesome"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="&#xf095;  Enter your phone..."
+                    class="fontawesome"
+                  />
+                </div>
+              </form>
+            </section>
+            <section class="shipping-address">
+              <h1>Shipping Address</h1>
+
+              <form action="">
+                <div class="form-group">
+                  <label for="name">Fullname</label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="&#xf2bd;  Rodney Cotton"
+                    class="fontawesome name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="address">Address</label>
+                  <input
+                    type="text"
+                    name="address"
+                    id="address"
+                    placeholder="&#xf015;  Your address..."
+                    class="fontawesome"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="city">City</label>
+                  <input
+                    type="text"
+                    name="city"
+                    id="city"
+                    placeholder="&#xf1ad;  Your city..."
+                    class="fontawesome"
+                  />
+                </div>
+                <section class="inline-form">
+                  <div class="form-group country">
+                    <label for="country">Country</label>
+                    <select name="country" id="country" class="fontawesome">
+                      <option value="" disabled selected>
+                        &#xf0ac; Your country...
+                      </option>
+                      <option value="saab">Kenya</option>
+                      <option value="mercedes">Germany</option>
+                      <option value="audi">Finland</option>
+                    </select>
+                  </div>
+                  <div class="form-group code">
+                    <label for="code">Postal Code</label>
+                    <input
+                      type="text"
+                      name="code"
+                      id="code"
+                      placeholder="&#xf07b;  Your postal code..."
+                      class="fontawesome"
+                    />
+                  </div>
+                </section>
+                <div class="save">
+                  <input type="checkbox" name="" id="" />
+                  <p>Save this information for next time</p>
+                </div>
+              </form>
+              <button class="btn">Continue</button>
+            </section>
+          </div>
+        </section>
+      </section>
+      <footer>
+        <p>Created by Fridah - devchallenges.io</p>
+      </footer>
+    </div>
+  </body>
+</html>
